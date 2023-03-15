@@ -224,8 +224,16 @@ border-radius: 4px;
     background: var(--accent-color);
 }
 .border-color{
-    border: var(--accent-color);
+    width: 368px;
+height: 110px;
+left: 215px;
+    border-width: 1px;
+  border-style: solid;
+  border-color: var(--background-buttons-color);
+  border-top: none;
+
 }
+      
 .portfolio-headers{
     font-family: 'Roboto',sans-serif;
 
@@ -234,6 +242,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
+margin-top: 0px;
 }
 .headers-veiw{
     font-family: 'Roboto',sans-serif;
@@ -243,6 +252,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
 letter-spacing: 0.03em;
+color: var(--feedback-color);
 }
 
 /*=================/PORTFOLIO================*/
