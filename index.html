@@ -14,32 +14,34 @@
 </head>
 <body>
     <header class="main-header">
+        <div class="container header-container">
         <nav class="navigation">
             <a class="logo"  href="./index.html" lang="en">
                 <span>Web</span>Studio
             </a>
-<ul class="list">
-    <li class="items">
+<ul class="list nav-list">
+    <li class="items nav-list-items">
         <a class="menu-link link" href="./index.html">Студія</a>
     </li>
-    <li class="items">
+    <li class="items nav-list-items">
         <a class="menu-link link" href="./portfolio.html">Портфоліо</a>
     </li>
-    <li class="items">
+    <li class="items nav-list-items">
         <a class="menu-link link" href="">Контакти</a>
     </li>
 </ul>
 </nav>
-<ul class="list">
-   <li>
-<a class=" link feedback" href="tel:+380961111111">+38 096 111 11 11</a>
+<ul class="list header-feedback">
+   <li class="nav-feedback">
+<a class=" link feedback number" href="tel:+380961111111">+38 096 111 11 11</a>
 </li>
 
-    <li>
+    <li class="nav-feedback">
 <a class="link feedback" href="mailto:info@devstudio.com">info@devstudio.com</a>
 </li>
 
 </ul>
+     </div>
 
     </header>
     <main>
@@ -47,8 +49,7 @@
     <section>
             <h1 class="main-text">Ефективні рішення для<br />вашого бізнесу</h1>
 
-                <button class="main-button" type="button">Замовити послугу
-                </button>
+                <button class="main-button" type="button">Замовити послугу</button>
     </section>
     <section>
         <h2 class="invisible">Наші Переваги</h2>
@@ -73,40 +74,56 @@
         </ul>
     </section>
     <section>
+        <div class="container">
             <h2 class="team">Чим ми займаємося</h2>   
-            <ul class="list">
-                <li class="items">
+            <ul class="list work-images">
+                <li class="items images">
                   <img src="images/work/type.jpg" alt="друкує" width="370" height="294"/>  
                 </li>
-                <li class="items">
+                <li class="items images">
                     <img src="images/work/telefone.jpg" alt="звіряє" width="370" height="294"/>  
                 </li>
-                <li class="items">
+                <li class="items images">
                     <img src="images/work/ipad.jpg" alt="малює" width="370" height="294"/>  
                 </li>
-            </ul>   
+            </ul>  
+        </div> 
     </section>
-    <section class="our-team">     
+    <section class="our-team"> 
+        <div class="container">
             <h2 class="team">Наша команда</h2>
-            <ul class="list">
-                <li>
-                    <img src="images/team/igor.jpg" alt="Ігор Дем'яненко" width="270" height="260"></li>
+            <ul class="list employees">
+                <li class="employees-card">
+                    <img src="images/team/igor.jpg" alt="Ігор Дем'яненко" width="270" height="260">
+                    <div>
                     <h3 class="names">Ігор Дем'яненко</h3>
                     <p class="jobs">Product Designer</p>
-                <li>
-                    <img src="images/team/repinaolga.jpg" alt="Ольга Рєпіна" width="270" height="260"></li>
+                    </div>
+                </li>
+                <li class="employees-card">
+                    <img src="images/team/repinaolga.jpg" alt="Ольга Рєпіна" width="270" height="260">
+                    <div>
                     <h3 class="names">Ольга Рєпіна</h3>
                     <p class="jobs">Frontend Developer</p>
-                <li>
-                    <img src="images/team/mikola.jpg" alt="Микола Тарасов" width="270" height="260"></li>
+                    </div>
+                </li>
+                <li class="employees-card">
+                    <img src="images/team/mikola.jpg" alt="Микола Тарасов" width="270" height="260">
+                    <div>
                     <h3 class="names">Микола Тарасов</h3>
                     <p class="jobs">Marketing</p>
-                <li>
-                    <img src="images/team/michael.jpg" alt="Михайло Єрмаков" width="270" height="260"></li>
+                    </div>
+                </li>
+                <li class="employees-card">
+                    <img src="images/team/michael.jpg" alt="Михайло Єрмаков" width="270" height="260">
+                    <div class="employees-border">
                     <h3 class="names">Михайло Єрмаков</h3>
                     <p class="jobs">UI Designer</p>
+                    </div>
+                </li>
                     
             </ul>
+        </div>   
     </section>
          </main>
 
