@@ -10,6 +10,7 @@
     --background-color: #2F303A ;
     --logo-color: #000000;
     --portfolio-background-color: #F5F5F5;
+    --portfolio-header-color: #ECECEC;
 }
 
 /*=================CMON=================*/
@@ -28,10 +29,16 @@ letter-spacing: 0.02em;
 
     color: var(--accent-color);
 }
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .list{
     list-style: none;
     padding-left: 0px;
+    margin-bottom: 0px;
 }
 .link{
     text-decoration: none;
@@ -52,10 +59,6 @@ body {
 
 
 /*=================HEADER=================*/
-.main-header{
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 .logo{
     margin-right: 92px;
     text-decoration: none;
@@ -74,14 +77,11 @@ span{
 .feedback{
     color: var(--feedback-color);
 }
-.container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .header-container{
     display: flex;
     align-items: center;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 .navigation{
     display: flex;
@@ -278,7 +278,18 @@ footer{
 
 
 /*=================PORTFOLIO================*/
-
+.portfolio-header{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: var(--portfolio-header-color);
+    border-width: 1px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 94px;
+}
 .menu-link{
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -289,7 +300,15 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 letter-spacing: 0.02em;
 }
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons-indent{
+    margin-right: 8px;
+}
 .button{
+    padding: 6 22;
     margin-top: 5;
     font-family: 'Roboto';
     font-style: normal;
@@ -310,17 +329,16 @@ border-radius: 4px;
     color: var(--text-color);
     background: var(--accent-color);
 }
+.portfolio-indent{
+    margin-bottom: 50px;
+}
 .border-color{
-    width: 368px;
-height: 110px;
-left: 215px;
     border-width: 1px;
   border-style: solid;
   border-color: var(--background-buttons-color);
   border-top: none;
 
-}
-      
+}     
 .portfolio-headers{
     font-family: 'Roboto',sans-serif;
 
@@ -329,7 +347,8 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-margin-top: 0px;
+margin-top: 20px;
+margin-bottom: 4px;
 }
 .headers-veiw{
     font-family: 'Roboto',sans-serif;
@@ -340,6 +359,13 @@ font-size: 16px;
 line-height: 1.8;
 letter-spacing: 0.03em;
 color: var(--feedback-color);
+margin-bottom: 20px;
+margin-top: 0px;
+}.employees-card-portfolio{
+    margin-top: 30px;
+    margin-left: 30px;
+} 
+.portfolio-background{
+    padding-bottom: 94px;
 }
-
 /*=================/PORTFOLIO================*/
