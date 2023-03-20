@@ -15,6 +15,7 @@
 
 /*=================CMON=================*/
 .link{
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -40,19 +41,9 @@ letter-spacing: 0.02em;
     padding-left: 0px;
     margin-bottom: 0px;
 }
-.link{
-    text-decoration: none;
-    font-family: 'Roboto',sans-serif;
-
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-}
-
 body {
     color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
 }
 /*=================/CMON=================*/
 
@@ -131,8 +122,6 @@ span{
     margin-bottom: 94px;
 }
 .main-text{
-    font-family: 'Roboto',sans-serif;
-
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -160,7 +149,7 @@ margin-bottom: 30px;
     min-width: 200px;
     margin: 0 auto;
   display: block;
-    font-family: 'Roboto',sans-serif;
+    
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -182,7 +171,7 @@ border: none;
     background-color: var(--accent-color)
 }
 .saptitel{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 700;
@@ -194,7 +183,7 @@ color: var(--primary-text-color);
 max-width: 270px;
 }
 .sabtitel{
-    font-family: 'Roboto',sans-serif;
+    
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -217,7 +206,7 @@ max-width: 270px;
     background-color: var(--background-buttons-color);
 }
 .team{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 700;
@@ -229,7 +218,7 @@ margin-top: 0;
 margin-bottom: 50px;
 }
 .names{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 500;
@@ -239,7 +228,7 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .jobs{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 400;
@@ -291,7 +280,7 @@ footer{
     margin-bottom: 94px;
 }
 .menu-link{
-    font-family: 'Roboto', sans-serif;
+    
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -340,7 +329,7 @@ border-radius: 4px;
 
 }     
 .portfolio-headers{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 700;
@@ -351,7 +340,7 @@ margin-top: 20px;
 margin-bottom: 4px;
 }
 .headers-veiw{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 400;
