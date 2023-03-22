@@ -45,11 +45,30 @@ body {
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
 }
+.link-potfolio,
+.link-potfolio:focus,
+.link-potfolio:active,
+.link-potfolio:hover{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.feedback-adress{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
 /*=================/CMON=================*/
 
 
 
 /*=================HEADER=================*/
+
+.studio{
+    color: var(--accent-color);
+}
 .logo{
     margin-right: 92px;
     text-decoration: none;
@@ -229,7 +248,7 @@ letter-spacing: 0.03em;
 }
 .jobs{
     
-
+color: var(--feedback-color);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -267,6 +286,11 @@ footer{
 
 
 /*=================PORTFOLIO================*/
+
+.portfolio{
+    color: var(--accent-color);
+}
+
 .portfolio-header{
     width: 1200px;
     margin-left: auto;
