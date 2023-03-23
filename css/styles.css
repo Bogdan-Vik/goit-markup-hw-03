@@ -313,12 +313,10 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 letter-spacing: 0.02em;
 }
-.buttons{
-    display: flex;
-    justify-content: center;
-}
 .buttons-indent{
     margin-right: 8px;
+    display: flex;
+    justify-content: center;
 }
 .button{
     padding: 6 22;
@@ -344,6 +342,8 @@ border-radius: 4px;
 }
 .portfolio-indent{
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 .border-color{
     border-width: 1px;
