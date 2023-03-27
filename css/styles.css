@@ -34,6 +34,8 @@ letter-spacing: 0.02em;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .list{
@@ -65,9 +67,20 @@ body {
 
 
 /*=================HEADER=================*/
+.number{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header-mail{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .studio{
     color: var(--accent-color);
+    display: block;
+    padding-bottom: 32px;
+padding-top: 32px;
 }
 .logo{
     margin-right: 92px;
@@ -90,8 +103,6 @@ span{
 .header-container{
     display: flex;
     align-items: center;
-        padding-top: 32px;
-        padding-bottom: 32px;
 }
 .navigation{
     display: flex;
@@ -99,12 +110,14 @@ span{
 }
 .nav-list{
   display: flex;
-  align-items: center;  
+  align-items: center; 
+  margin-top: 0; 
 }
 .header-feedback{
     display: flex;
     align-items: center;
     margin-left: auto;
+    margin-top: 0;
 }
 .nav-list-items:not(:last-child){
     margin-right: 50px;
@@ -137,10 +150,12 @@ span{
 .main-section-color{
     background-color: var(--background-color);
     padding-top: 200px;
-    padding-bottom: 210px;
-    margin-bottom: 94px;
+    padding-bottom: 200px;
 }
 .main-text{
+    display: block;
+    text-align: center;
+    max-width: 696px;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -150,6 +165,9 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--text-color);
 margin-bottom: 30px;
+margin-top: 0;
+margin-left: auto;
+margin-right: auto;
 }
 .invisible{
     position: absolute;
@@ -200,6 +218,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-text-color);
 max-width: 270px;
+margin-top: 0;
+margin-bottom: 10px;
 }
 .sabtitel{
     
@@ -210,11 +230,12 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--feedback-color);
 max-width: 270px;
+margin-top: 0;
+margin-bottom: 0;
 }
 .main-sabtitle{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 118px;
+    margin-top: 0;
 }
 .employees-subtitle:not(:last-child){
     margin-right: 30px;
@@ -267,7 +288,6 @@ footer{
 }
 .work-images{
     display: flex;
-    justify-content: space-between;
     padding-left: 0;
     margin-top: 0;
 }
@@ -279,9 +299,18 @@ footer{
     margin-bottom: 0px;
 }
 .images{
+    display: block;
+}
+.images:not(:last-child){
     margin-right: 30px;
 }
-
+.our-advantages{
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+.our-work{
+    padding-bottom: 94px;
+}
 /*=================/TEXT=================*/
 
 
@@ -312,6 +341,9 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 letter-spacing: 0.02em;
+display: block;
+padding-bottom: 32px;
+padding-top: 32px;
 }
 .buttons-indent{
     margin-right: 8px;
